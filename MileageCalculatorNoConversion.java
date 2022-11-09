@@ -47,6 +47,9 @@ public class MileageCalculatorNoConversion extends Application {
     private RadioButton rbMPG = new RadioButton(defaultResult);
     private RadioButton rbKPL = new RadioButton(altResult);
     private ToggleGroup tgConv = new ToggleGroup();
+	
+    private ComboBox<String> cbox = new ComboBox<>();
+    cbox.getItems().addAll("MPG", "KPL");
     
     private GridPane mainPane = new GridPane();
     
